@@ -1,8 +1,8 @@
 import useMediaQuery from "@/hooks/useMediaQuery";
 import { SelectedPage } from "@/shared/types"
 import ActionButton from "@/shared/ActionButton";
-import HomePageText from "@/assets/HomePageText.png";
-import HomePageGraphic from "@/assets/HomePageGraphic.png";
+import HomePageText from "@/assets/Stomatolog.png";
+import HomePageGraphic from "@/assets/DanaHomePage_Canva.png";
 import SponsorRedBull from "@/assets/SponsorRedBull.png";
 import SponsorForbes from "@/assets/SponsorForbes.png";
 import SponsorFortune from "@/assets/SponsorFortune.png";
@@ -19,7 +19,7 @@ const Home = ({ setSelectedPage }: Props) => {
   return (
     <section
         id="home"
-        className="gap-16 bg-gray-20 py-10 md:h-full md:pb-0"
+        className="gap-16 bg-blue-90 py-10 md:h-full md:pb-0"
     >
         {/* Image and Main Header */}
         <motion.div 
@@ -41,14 +41,12 @@ const Home = ({ setSelectedPage }: Props) => {
                         }}
                     >                
                     <div className="relative">
-                        <div className="brefore:absolute  before:-top-20 before:-left-20 before:z-[-1] md:before:content-evolvetext">
+                        <div className="before:absolute  before:-top-20 before:-left-20 before:z-[-1] md:before:content-evolvetext">
                             <img src={HomePageText} alt="home-page-text" />
                         </div>
                     </div>
                     <p className="mt-8 text-sm">
-                        Unrivaled Gym. Unparalleled Training Fitness Classes. World Class
-                        Studios to get the Body Shapes That you Dream of.. Get Your Dream
-                        Body Now.  
+                    Creating bright smiles with expert care, using state-of-the-art technology in a warm, welcoming, and joyful dental environment.  
                     </p>
                 </motion.div>
                 {/* Actions */}

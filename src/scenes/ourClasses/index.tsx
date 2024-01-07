@@ -1,46 +1,29 @@
 import { SelectedPage, ClassType } from "@/shared/types"
-import image1 from "@/assets/image1.png";
-import image2 from "@/assets/image2.png";
-import image3 from "@/assets/image3.png";
-import image4 from "@/assets/image4.png";
-import image5 from "@/assets/image5.png";
-import image6 from "@/assets/image6.png";
+import image1 from "@/assets/smile.jpg";
+import image2 from "@/assets/utensils.jpg";
+import image3 from "@/assets/hygiene.jpg";
 import { motion } from "framer-motion";
 import HText from "@/shared/HText";
 import Class from "./Class";
 
 const classes: Array<ClassType> = [
   {
-    name: "Weight Training Classes",
+    name: "Smile Beautification Expert",
     description:       
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "I specialize in transforming smiles. My work combines artistic skill and dental knowledge to enhance teeth and gum appearance. I focus on procedures like teeth whitening, aligning teeth, and applying veneers. My goal is to boost my clients' confidence with a radiant, healthy smile.",
     image: image1,
   },
   {
-    name: "Yoga Classes",
+    name: "Premium Dental Instruments",
+    description:       
+    "My premium dental instruments represent the pinnacle of quality and precision. Crafted from superior materials, they ensure unmatched performance and durability. Designed for a wide range of procedures, these tools offer exceptional control and comfort, making them indispensable for providing top-tier dental care and achieving optimal patient outcomes.",
     image: image2,
   },
   {
-    name: "Ab Core Classes",
+    name: "Essential Oral Care",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Essential oral care is vital for overall health and well-being. It encompasses regular brushing, flossing, and dental check-ups to prevent tooth decay and gum disease. Good oral hygiene habits maintain a healthy mouth, fresh breath, and a beautiful smile, and also contribute to early detection of dental issues.",
     image: image3,
-  },
-  {
-    name: "Adventure Classes",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    image: image4,
-  },
-  {
-    name: "Fitness Classes",
-    image: image5,
-  },
-  {
-    name: "Training Classes",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    image: image6,
   },
 ]
 

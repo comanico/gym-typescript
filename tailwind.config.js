@@ -4,13 +4,19 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        "sky-50": "#0ea5e9",
+        "blue-20": "#93c5fd",
+        "blue-30": "#93c5fd",
+        "blue-50": "#3b82f6",
+        "blue-90": "#1e3a8a",
+        "blue-95": "#fde047",
         "gray-20": "#F8F4EB",
         "gray-50": "#EFE6E6",
         "gray-100": "#DFCCCC",
         "gray-500": "#5E0000",
-        "primary-100": "#FFE1E0",
-        "primary-300": "#FFA6A3",
-        "primary-500": "#FF6B66",
+        "primary-100": "#a5f3fc",
+        "primary-300": "#d1d5db",
+        "primary-500": "#fafafa",
         "secondary-400": "#FFCD5B",
         "secondary-500": "#FFC132",
       },
@@ -24,7 +30,7 @@ module.exports = {
         montserrat: ["Montserrat", "sans-serif"],
       },
       content: {
-        evolvetext: "url('./assets/EvolveText.png')",
+        evolvetext: "url('./assets/Dr. Dana Marinca.png')",
         abstractwaves: "url('./assets/AbstractWaves.png')",
         sparkles: "url('./assets/Sparkles.png')",
         circles: "url('./assets/Circles.png')",
