@@ -15,4 +15,5 @@ export enum SelectedPage {
     name: string;
     description?: string;
     image: string;
+    content: string;
   }

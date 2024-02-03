@@ -43,13 +43,10 @@ const ContactUs = ({ setSelectedPage }: Props) => {
           }}
         >
           <HText>
-            <span className="text-primary-500">JOIN NOW</span> TO GET IN SHAPE  
+            <span className="text-primary-100">JOIN NOW</span> FOR A BRIGHTER HEALTHIER SMILE  
           </HText>  
             <p className="my-5">
-              Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est
-              tellus quam porttitor. Mauris velit euismod elementum arcu neque
-              facilisi. Amet semper tortor facilisis metus nibh. Rhoncus sit
-              enim mattis odio in risus nunc. 
+            Reach Out to Our Expert Team for Personalized, Compassionate Care! 
             </p>
         </motion.div>  
         <div className="mt-10 justify-between gap-8 md:flex">
@@ -79,7 +76,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
                 })}
               />
               {errors.name && (
-                <p className="mt-1 text-primary-500">
+                <p className="mt-1 text-secondary-500">
                   {errors.name.type === "required" && "This field is required."}
                   {errors.name.type === "maxLength" && "Max length is 100 characters"}
                 </p>
