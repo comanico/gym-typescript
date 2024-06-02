@@ -2,7 +2,7 @@ export enum SelectedPage {
     Home = "home",
     About = "about",
     Articles = "artciles",
-    ContactUs = "contact"
+    Contact = "contact"
   }
 
   export interface BenefitType {
