@@ -6,9 +6,10 @@ interface BlogModalProps {
     children: React.ReactNode;
     isOpen: boolean;
     handleClose: () => void;
+    imageUrl: string;
 }
 
-const BlogModal = ({ children, isOpen, handleClose } : BlogModalProps) => {
+const BlogModal = ({ children, isOpen, handleClose, imageUrl } : BlogModalProps) => {
 
     const modalVariants = {
         hidden: { opacity: 0, y: "-100vh" },
@@ -57,9 +58,9 @@ const BlogModal = ({ children, isOpen, handleClose } : BlogModalProps) => {
             >
 
                 {/* Modal */}
-                <div className="overflow-visible fixed inset-0 flex justify-center items-center p-4">
+                <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center p-4">
                     <motion.div 
-                        className="relative bg-white rounded-lg shadow p-6 max-w-md mx-auto"
+                        className="relative bg-white rounded-lg shadow max-w-full h-full w-full p-6 overflow-auto max-w-prose mx-auto"
                         onClick={(e) => e.stopPropagation()}
                         initial="hidden"
                         animate="visible"
@@ -72,6 +73,7 @@ const BlogModal = ({ children, isOpen, handleClose } : BlogModalProps) => {
                                 onClick={handleClose}>
                             Close
                         </button>
+                        <img src={imageUrl} alt="Class image" className="mb-4 w-full h-auto rounded" />
                         {children}
                     </motion.div>
                 </div>

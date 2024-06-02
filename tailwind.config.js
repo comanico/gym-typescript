@@ -4,6 +4,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        "yellow-gold": "#FFD700",
+        "royal-blue": "#4169E1",
+        "pearl-white": "#E2DFD2",
         "sky-50": "#0ea5e9",
         "blue-20": "#93c5fd",
         "blue-30": "#93c5fd",
@@ -14,6 +17,7 @@ module.exports = {
         "gray-50": "#EFE6E6",
         "gray-100": "#DFCCCC",
         "gray-500": "#5E0000",
+        "bone-white": "#F9F6EE",
         "primary-100": "#a5f3fc",
         "primary-300": "#d1d5db",
         "primary-500": "#fafafa",

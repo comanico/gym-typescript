@@ -30,10 +30,14 @@ const Class = ({ name, description, image, content }: Props) => {
         {isModalOpen && (
           <BlogModal 
             isOpen={isModalOpen}
-            handleClose={() => setIsModalOpen(!isModalOpen)}>
-            <div className="flex flex-col justify-between h-full w-full">
-                <p className="text-2xl">{name}</p>
-                <p className="mt-5">{content}</p>
+            handleClose={() => setIsModalOpen(!isModalOpen)}
+            imageUrl={image}
+            >
+            <div className="flex flex-col justify-between h-full w-full p-6 space-y-4">
+                <p className="text-2xl border-b pb-2">{name}</p>
+                {content.split('\n').map((paragraph, index) => (
+                  <p key={index} className="mt-5 border p-4">{paragraph}</p>
+                ))}
             </div>
           </BlogModal>
         )}

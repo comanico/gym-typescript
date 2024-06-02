@@ -39,22 +39,21 @@ const Navbar = ({isTopOfPage, selectedPage, setSelectedPage}: Props) => {
                             selectedPage={selectedPage}
                             setSelectedPage={setSelectedPage}/>
                             <Link 
-                            page="Benefits"
+                            page="About"
                             selectedPage={selectedPage}
                             setSelectedPage={setSelectedPage}/>
                             <Link 
-                            page="Our Classes"
+                            page="Articles"
                             selectedPage={selectedPage}
                             setSelectedPage={setSelectedPage}/>
                             <Link 
-                            page="Contact us"
+                            page="Contact"
                             selectedPage={selectedPage}
                             setSelectedPage={setSelectedPage}/>
                         </div>
                         <div className = {`${flexBetween} gap-8`}>
-                            <p>Sign In</p>
                             <ActionButton setSelectedPage={setSelectedPage}>
-                                Become a Member
+                                <span className="text-royal-blue">Get in contact</span>
                             </ActionButton>                        
                     </div>
                     </div>
@@ -89,15 +88,15 @@ const Navbar = ({isTopOfPage, selectedPage, setSelectedPage}: Props) => {
                         selectedPage={selectedPage}
                         setSelectedPage={setSelectedPage}/>
                         <Link 
-                        page="Benefits"
+                        page="About"
                         selectedPage={selectedPage}
                         setSelectedPage={setSelectedPage}/>
                         <Link 
-                        page="Our Classes"
+                        page="Artciles"
                         selectedPage={selectedPage}
                         setSelectedPage={setSelectedPage}/>
                         <Link 
-                        page="Contact us"
+                        page="Contact"
                         selectedPage={selectedPage}
                         setSelectedPage={setSelectedPage}/>
                     </div>

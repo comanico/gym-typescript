@@ -45,7 +45,7 @@ const Home = ({ setSelectedPage }: Props) => {
                             <img src={HomePageText} alt="home-page-text" />
                         </div>
                     </div>
-                    <p className="mt-8 text-sm">
+                    <p className="mt-8 text-sm text-yellow-gold">
                     Creating bright smiles with expert care, using state-of-the-art technology in a warm, welcoming, and joyful dental environment.  
                     </p>
                 </motion.div>
